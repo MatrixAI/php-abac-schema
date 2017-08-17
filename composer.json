@@ -1,0 +1,27 @@
+{
+  "name": "matrixai/abac-schema",
+  "type": "library",
+  "description": "Interfaces for ABAC",
+  "homepage": "https://github.com/MatrixAI/php-abac-schema",
+  "license": "Apache-2.0",
+  "keywords": ["auth", "authentication", "abac", "attribute based access contorl"],
+  "authors": [{
+    "name": "Roger Qiu",
+    "email": "roger.qiu@matrix.ai",
+    "homepage": "https://matrix.ai",
+    "role": "Founder"
+  }],
+  "require": {
+    "php": ">=7.1",
+    "phpoption/phpoption": "^1.5"
+  },
+  "require-dev": {
+    "psy/psysh": "@stable",
+    "trismegiste/wam-prolog": "^1.4"
+  },
+  "autoload": {
+    "psr-4": { "ABAC\\": "src/" }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
