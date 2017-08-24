@@ -16,8 +16,7 @@
     "phpoption/phpoption": "^1.5"
   },
   "require-dev": {
-    "psy/psysh": "@stable",
-    "trismegiste/wam-prolog": "^1.4"
+    "psy/psysh": "@stable"
   },
   "autoload": {
     "psr-4": {
